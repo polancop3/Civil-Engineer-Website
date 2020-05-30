@@ -1,0 +1,44 @@
+html,body { 
+    font-family: 'montserrat',sans-serif;
+    height: 100%;
+    width: 100%;
+    background: url(foto.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  h1{
+    font-size:50px ;
+    color:black;
+    border-style: solid;
+    border-color: black;
+  }
+  #linea {
+    border-color: #b9936c ;
+    border-width: 3px;
+    max-width: 65px;
+  }
+   .buffer{
+     height: 10rem;
+
+  }
+  .btnhome{
+    background-color:#b9936c ;
+    padding: 1rem 2rem;
+    border-radius: 300px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    border-color:#b9936c ;
+  }
+  .btnhome:hover{
+      background-color: #ec933a;
+  }
+  .container{
+    justify-content: center;
+    height: 100%;
+  }
+  a{
+    color: black;
+  }
